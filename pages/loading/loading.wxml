@@ -1,0 +1,5 @@
+<!--pages/loading/loading.wxml-->
+<view class='bg'>
+  <image src='../../images/logo2.png'></image>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取授权</button>
+</view>

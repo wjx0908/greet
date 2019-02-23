@@ -1,0 +1,56 @@
+/**index.wxss**/
+.index_title{
+  font-size: 29rpx;
+  line-height: 66rpx;
+  text-align: center;
+  color:#808080;
+}
+.index_title image{
+  margin-top: 50rpx;
+  width: 350rpx;
+  height: 120rpx;
+}
+.index_item{
+  padding: 0 50rpx;
+  margin-top: 80rpx
+}
+.index_item .item{
+  width: 604rpx;
+  height: 95rpx;
+  padding: 61rpx 0 64rpx 46rpx;
+  margin-bottom: 40rpx;
+  border-radius: 20rpx;
+  box-shadow: 1px 0px 10px rgba(0,0,0,.1);
+  position: relative;
+}
+.index_item .item_title{
+  font-size: 36rpx;
+  color: #F9B532
+}
+.index_item .item_slogn{
+  font-size: 28rpx;
+  color:#808080;
+  padding-top: 16rpx
+}
+.index_item .item .arrow{
+
+  position: absolute;
+  right: 56rpx;
+  top:75rpx;
+  color: rgba(199,199,204,0.5);
+  font-size: 56rpx
+}
+.blessing{
+  text-align: center;
+}
+.blessing image{
+  width: 650rpx;
+  height: 210rpx;
+ 
+}
+.mark{
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+  padding-bottom: 50rpx
+}

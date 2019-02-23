@@ -1,0 +1,81 @@
+/* pages/dzwh/dzwh.wxss */
+.weui-vcode-btn{
+  color: rgb(255,190,0);  
+  font-size: 28rpx;
+  border-left: none;
+}
+.dzwh{
+  font-size: 32rpx;
+  padding-bottom: 120rpx
+}
+.dzwh .weui-cell,.dzwh .weui-tab {
+  background: #fff
+}
+.tab_title{
+  padding-left: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #888;
+  background: #f4f4f4
+}
+.tab .weui-input{
+  text-align: right;
+  color: #bfbfbf;
+}
+.weui-navbar{
+  border: none
+}
+.weui-navbar__item{
+  border: 1px solid rgb(218,218,218);
+  margin-left: -1px;
+  color: #333;
+}
+.weui-navbar .active{
+  background: rgb(234,234,234)
+}
+.toDoList{
+  margin-top: 30rpx;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.toDoList_item{
+  border-bottom: 1rpx solid rgb(229,229,229);
+  height: 97rpx;
+  line-height: 97rpx
+}
+.toDoList .operation{
+  text-align: right;
+  padding-right: 30rpx;
+  color: rgb(153,153,153)
+}
+.dzwh_bt{
+  height: 108rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1rpx solid rgb(229,229,229);
+  font-size: 24rpx
+}
+.dzwh_bt view.left {
+  line-height: 108rpx;
+  text-align: center;
+  color: rgb(136, 136, 136);
+  width: 30%;
+  font-size: 32rpx;
+}
+.dzwh_bt view.right{
+  width: 70%
+}
+
+.dzwh_bt_btn{
+  height: 108rpx;
+  line-height: 108rpx;
+  background: rgb(255,190,0);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  font-size: 32rpx
+}

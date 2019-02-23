@@ -1,0 +1,16 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='wallet'>
+  <view class='wallet_head'>
+    <view class='wallet_money'>12.20</view>
+    <view>账户余额</view>
+  </view>
+  <view class='wallet_btn'>
+    <navigator url='../recharge/recharge' hover-class="none"><button class="weui-btn" type="primary" style='background:#ffbe00'>充值</button></navigator>
+    <navigator url='../consumerDetails/consumerDetails' hover-class="none" style='margin-top:50rpx'><button class="weui-btn" type="default">消费明细</button></navigator>
+  </view>
+
+  <view class='wallet_bt weui-flex'>
+    <view class='weui-flex__item' style='text-align:right'><navigator url='../chargeRecord/chargeRecord' hover-class="none">充值记录</navigator></view>
+    <view class='weui-flex__item'><navigator url='../problem/problem' hover-class="none">常见问题</navigator></view>
+  </view>
+</view>

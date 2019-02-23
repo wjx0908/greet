@@ -1,0 +1,17 @@
+<!--pages/editName/editName.wxml-->
+<view class='editName'>
+
+  <view style='height:20rpx;background:rgb(244,244,244)'></view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__bd">
+      <input class="weui-input" value="冷关怀" />
+      <i class='cancel iconfont icon-cancel'></i>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input"></view>
+
+
+  <view class='editName_btn'>
+  <button class="weui-btn" type="primary">确定修改</button>
+  </view>
+</view>

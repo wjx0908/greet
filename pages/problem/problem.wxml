@@ -1,0 +1,7 @@
+<!--pages/problem/problem.wxml-->
+<view class='problem'>
+  <view class='problem_item'>
+    <view class='problem_title'>一、如何新增短信方案？</view>
+    <view class='problem_desc'>在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，在首页点击定制短信方案，进入定制短信界面，</view>
+  </view>
+</view>

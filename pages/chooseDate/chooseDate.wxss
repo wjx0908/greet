@@ -1,0 +1,54 @@
+/* pages/chooseDate/chooseDate.wxss */
+.weui-navbar__slider{
+  width: 50%;
+  background: #FFBE00;
+
+}
+.weui-navbar{
+  border-bottom:none;
+}
+.weui-navbar__item.weui-bar__item_on {
+  color:#FFBE00;
+}
+.weui-tab__content{
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  background:rgb(244,244,244);
+  padding-bottom: 40rpx;
+}
+.chooseDate_title{
+  padding-top: 42rpx;
+  padding-bottom: 22rpx;
+}
+.chooseDate_list{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.chooseDate_item{
+  margin-bottom: 20rpx;
+  margin-right: 23rpx;
+  width: 215rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius:6rpx;
+  box-sizing: border-box;
+  border:1rpx solid rgb(234,234,234);
+  text-align: center;
+  background: #fff
+}
+.chooseDate_item.itemThree{
+  margin-right: 0;
+}
+.chooseDate_btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%
+}
+.chooseDate_btn button{
+  border-radius: 0;
+  border: none;
+  background: rgb(255,190,0);
+  color: #fff
+}

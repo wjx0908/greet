@@ -1,0 +1,59 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/loading/loading",    
+    "pages/myContacts/myContact",
+    "pages/addContact/addContact",
+    "pages/day/day",
+    "pages/year/year",
+    "pages/recharge/recharge",
+    "pages/phonechoose/phone",
+    "pages/mine/mine",
+    "pages/release/release",
+    "pages/editContact/editContact",
+    "pages/editName/editName",
+    "pages/problem/problem",
+    
+    "pages/consumerDetails/consumerDetails",
+    "pages/chargeRecord/chargeRecord",
+    "pages/chooseDate/chooseDate",
+    "pages/greetNow/greetNow",
+    "pages/wallet/wallet",
+    "pages/week/week",
+    "pages/month/month"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dadbe6",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "selectedColor": "#fe8e1e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "text": "队列 ",
+        "iconPath": "images/release.png",
+        "selectedIconPath": "images/release2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine2.png"
+      }
+    ]
+  }
+}

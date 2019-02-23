@@ -1,0 +1,24 @@
+/* pages/loading/loading.wxss */
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  height: 100%;
+  width: 100%;
+  background: rgb(249,181,50);
+  text-align: center
+}
+.bg image{
+  width: 500rpx;
+  height: 300rpx;
+  margin-top: 180rpx;
+}
+.bg button{
+  width: 400rpx;
+  height: 108rpx;
+  line-height: 108rpx;
+  color:rgb(249,164,0);
+  margin-top: 400rpx;
+  border-radius: 54rpx
+}

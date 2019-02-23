@@ -1,0 +1,23 @@
+/* pages/greetNow/greetNow.wxss */
+.greetNow{
+  font-size: 32rpx
+}
+.weui-vcode-btn{
+  color: rgb(255,190,0);  
+  font-size: 28rpx;
+  border-left: none;
+}
+.choose .weui-input{
+  text-align: right;
+  color: #bfbfbf;
+}
+.greetNow_btn{position: fixed;bottom: 0;left: 0;width: 100%}
+.greetNow_btn button{
+  height: 108rpx;
+  line-height: 108rpx;
+  background: rgb(255,190,0);
+  color: #fff;
+  font-size: 36rpx;
+  border-radius: 0
+}
+

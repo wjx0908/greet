@@ -1,0 +1,33 @@
+/* pages/mine/mine.wxss */
+
+.mine_head{
+  padding-top: 32rpx;
+  padding-bottom: 58rpx;
+  background: #F9B532;
+  color: #fff;
+  text-align: center;
+  font-size: 36rpx
+}
+.mine_head image{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 3px solid #fff
+}
+.mine_list{
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+}
+.mine_list .mine_list_item{
+  padding: 29rpx 0;
+  border-bottom: 1rpx solid #e5e5e5;
+  position: relative
+}
+.mine_list .mine_list_item i{
+  position: absolute;
+  right: 30rpx;
+  top:50%;
+  transform: translateY(-50%);
+  color: #c7c7c7;
+}

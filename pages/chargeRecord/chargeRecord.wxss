@@ -1,0 +1,23 @@
+/* pages/chargeRecord/chargeRecord.wxss */
+
+.chargeRecord_item {
+  padding-left: 30rpx;
+  padding-top: 32rpx;
+  font-size: 32rpx;
+}
+
+.chargeRecord_item .weui-flex {
+  border-bottom: 1rpx solid rgb(229, 229, 229);
+  padding-bottom: 40rpx;
+}
+
+.chargeRecord_item_l .chargeRecord_time{
+  font-size: 24rpx;
+  color:rgb(169,169,169);
+}
+
+.chargeRecord_item_r {
+  text-align: right;
+  padding-right: 30rpx;
+  font-size: 40rpx
+}

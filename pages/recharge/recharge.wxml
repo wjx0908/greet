@@ -1,0 +1,18 @@
+<!--pages/recharge/recharge.wxml-->
+<view style='height:20rpx;background:rgb(244,244,244)'></view>
+<view class='recharge'>
+  <view class='recharge_title'>充值金额</view>
+  <view class='recharge_items'>
+  <block wx:for="{{price}}">
+    <view class='recharge_item {{n==index ? "recharge_item_active" : ""}}' bindtap='tapchange' data-id='{{index}}'>{{item}}元</view>
+   </block>
+  </view>
+  <view class='recharge_input'>
+    <input type='text' placeholder='其他金额' bindinput='watchPassWord' />
+    <view class='recharge_input_notice'>金额必须大于或等于1元</view>
+  </view>
+
+</view>
+<view class='recharge_btn'>
+  <button>微信支付{{cont}}元</button>
+</view>

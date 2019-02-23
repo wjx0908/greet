@@ -1,0 +1,22 @@
+/* pages/consumerDetails/consumerDetails.wxss */
+.consumerDetails_item {
+  padding-left: 30rpx;
+  padding-top: 32rpx;
+  font-size: 32rpx;
+}
+
+.consumerDetails .weui-flex {
+  border-bottom: 1rpx solid rgb(229, 229, 229);
+  padding-bottom: 40rpx;
+}
+
+.consumerDetails_item_l .consumerDetails_time{
+  font-size: 24rpx;
+  color:rgb(169,169,169);
+}
+
+.consumerDetails_item_r {
+  text-align: right;
+  padding-right: 30rpx;
+  font-size: 40rpx
+}

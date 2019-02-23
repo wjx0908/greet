@@ -1,0 +1,34 @@
+/* pages/wallet/wallet.wxss */
+
+.wallet_head {
+  padding-top: 100rpx;
+  height: 220rpx;
+  background: #ffbe00;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.wallet_money {
+  font-size: 108rpx;
+  line-height: 0;
+  margin-bottom: 80rpx
+}
+.wallet_btn{
+  margin-top: 198rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.wallet_btn button{
+  height: 108rpx;
+  line-height: 108rpx;
+  width: 600rpx;
+}
+.wallet_bt{
+  margin-top: 200rpx;
+  font-size: 28rpx;
+  color: rgb(153,153,153);
+}
+.wallet_bt view{
+  padding: 0 52rpx;
+}

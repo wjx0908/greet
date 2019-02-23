@@ -1,0 +1,14 @@
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <textarea class="weui-textarea" placeholder="请输入手机号" style="height: 25em;font-size:30rpx" bindinput="bindTextAreaBlur" value='{{phoneNums}}'  maxlength="900" />
+
+    </view>
+    
+  </view>
+   
+</view>
+<view class='weui-cells__tips'>*如发送多个手机号，请用 "," 隔开</view>
+
+<view class='phone_btn'><button class="weui-btn" type="primary" style='background:rgb(255,190,0);' bindtap='toPage'>提交</button></view>

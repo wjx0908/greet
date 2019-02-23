@@ -1,0 +1,68 @@
+<!--pages/release/release.wxml-->
+<view class='headTab'>
+  <view class="weui-tab">
+    <view class="weui-navbar">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+          <view class="weui-navbar__title">{{item}}</view>
+        </view>
+      </block>
+      <view class="weui-navbar__slider" style="left: 0px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+    </view>
+
+    <view class="weui-tab__panel">
+      <view style='height:10px;background:rgb(244,244,244)'></view>
+       <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+        <!--循环-->
+        <block wx:for="{{sendList}}" wx:key="id">
+        <view class="weui-tab__content_list {{item.open ? 'list_active' : ''}}">
+          <view class=' weui-flex' bindtap='listToggle' id='{{item.id}}'>
+            <view class='weui-flex__item'>{{item.mobile}}</view>
+            <view class='wait'>{{item.status==1 ? "发送成功":"发送失败"}}
+              <span class='wait_arrow iconfont icon-jiantouarrow483'></span>
+            </view>
+          </view>
+          <view class='weui-flex__item_desc'>
+            <view class='item_desc_msg'>{{item.content}}</view>
+            <view class='item_desc_msg_bt weui-flex'>
+              <view class='wait_information weui-flex__item'>
+                <view class='wait_information_number'>发送编号：{{item.number}}</view>
+                <view class='wait_information_time'>预计发送时间：{{item.ymd}} {{item.date}}</view>
+              </view>
+              <view class='item_desc_btn' bindtap='openDeletConfirm' data-id="{{item.id}}" data-index="{{index}}">删除记录</view>
+            </view>
+          </view>
+        </view>
+        </block>
+        <!--循环结束-->
+      </view>
+      <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+        <!--循环-->
+        <block wx:for="{{waitList}}" wx:key="id">
+        <!-- <view class=''>这是最外层标题</view> -->
+        <!-- <block wx:for="{{i}}" wx:key=""> -->
+        <view class='weui-tab__content_list {{item.open ? "list_active" : ""}}'>
+          <view class=' weui-flex' bindtap='waitToggle' id='{{item.id}}'>
+            <view class='weui-flex__item'>{{item.mobile}}</view>
+            <view class='wait'>等待发送
+              <span class='wait_arrow iconfont icon-jiantouarrow483'></span>
+            </view>
+          </view>
+          <view class='weui-flex__item_desc'>
+            <view class='item_desc_msg'>{{item.content}}</view>
+            <view class='item_desc_msg_bt weui-flex'>
+              <view class='wait_information weui-flex__item'>
+                <view class='wait_information_number'>发送编号：{{item.number}}</view>
+                <view class='wait_information_time'>预计发送时间：{{item.ymd}} {{item.date}}</view>
+              </view>
+              <view class='item_desc_btn' bindtap='openCancelConfirm' data-index='{{index}}' data-id="{{item.id}}">取消发送</view>
+            </view>
+          </view>
+        </view>
+        <!-- </block> -->
+        </block>
+        <!--循环结束-->
+      </view>
+    </view>
+  </view>
+</view>

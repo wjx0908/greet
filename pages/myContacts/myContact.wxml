@@ -1,0 +1,22 @@
+<!--pages/myContacts/myContact.wxml-->
+<view class='myContact'>
+  <view style='height:20rpx;background:rgb(244,244,244)'></view>
+  <view class='contacts_list'>
+    <!--循环-->
+    <block wx:for="{{contacts}}" wx:key="*this">
+    <view class='contact_item' bindtap='toEdit' data-id='{{item.id}}'>
+      <view class='weui-flex contact_item_flex'>
+        <view class='weui-flex__item'>{{item.name}}</view>
+        <view class=''>{{item.mobile}}</view>
+        <i class="iconfont icon-jiantouarrow483"></i>
+      </view>
+    </view>
+    </block>
+    <!--循环结束-->
+  </view>
+  <view class='myContact_btn'>
+    <navigator url='../addContact/addContact'>
+      <button class="weui-btn" type="primary">新增联系人</button>
+    </navigator>
+  </view>
+</view>

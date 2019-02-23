@@ -1,0 +1,20 @@
+/* pages/editName/editName.wxss */
+.editName .weui-cell__bd{
+  position: relative
+}
+.editName .weui-cell__bd .cancel{
+  position: absolute;
+  right:10rpx;
+  top:50%;
+  transform: translateY(-50%);
+  color: #7E7F86;
+  font-size: 40rpx
+}
+.editName_btn .weui-btn{
+  width: 100%;
+  background: rgb(255,190,0);
+  position: fixed;
+  bottom:0;
+  left: 0;
+  border-radius: 0
+}

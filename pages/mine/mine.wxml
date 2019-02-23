@@ -1,0 +1,17 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine'>
+  <view class='mine_head'>
+    <image src='{{avatar}}' class='avator'></image>
+    <view class='mine_head_name'>{{nickname}} <i class="iconfont {{sex==1 ? 'icon-nanxing' : 'icon-nv'}}"></i></view>
+  </view>
+  <view class='mine_list'>
+    <!--循环-->
+    <view class='mine_list_item'>
+    <navigator url='../myContacts/myContact' hover-class="none">我的联系人<i class="iconfont icon-jiantouarrow483"></i></navigator>
+    </view>
+    <view class='mine_list_item'><navigator url='../release/release' hover-class="none" open-type="switchTab">发送队列<i class="iconfont icon-jiantouarrow483"></i></navigator></view>
+    <view class='mine_list_item'><navigator url='../wallet/wallet' hover-class="none">我的钱包<i class="iconfont icon-jiantouarrow483"></i></navigator></view>
+    <view class='mine_list_item'><navigator url='../problem/problem' hover-class="none">常见问题<i class="iconfont icon-jiantouarrow483"></i></navigator></view>
+    <view class='mine_list_item'><navigator url='' hover-class="none">推荐给好友<i class="iconfont icon-jiantouarrow483"></i></navigator></view>
+  </view>
+</view>

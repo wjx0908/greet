@@ -1,0 +1,22 @@
+<!--pages/chargeRecord/chargeRecord.wxml-->
+<view style='height:20rpx;background:rgb(244,244,244)'></view>
+<view class='chargeRecord'>
+  <view class='chargeRecord_item'>
+    <view class='weui-flex'>
+      <view class='chargeRecord_item_l weui-flex__item'>
+        <view class='chargeRecord_order'>CZ2018060512456</view>
+        <view class='chargeRecord_time'>2018-06-26 12:12</view>
+      </view>
+      <view class='chargeRecord_item_r weui-flex__item'>10.00</view>
+    </view>
+  </view>
+  <view class='chargeRecord_item'>
+    <view class='weui-flex'>
+      <view class='chargeRecord_item_l weui-flex__item'>
+        <view class='chargeRecord_order'>CZ2018060512456</view>
+        <view class='chargeRecord_time'>2018-06-26 12:12</view>
+      </view>
+      <view class='chargeRecord_item_r weui-flex__item'>10.00</view>
+    </view>
+  </view>
+</view>

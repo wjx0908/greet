@@ -1,0 +1,22 @@
+<!--pages/consumerDetails/consumerDetails.wxml-->
+<view style='height:20rpx;background:rgb(244,244,244)'></view>
+<view class='consumerDetails'>
+  <view class='consumerDetails_item'>
+    <view class='weui-flex'>
+      <view class='consumerDetails_item_l weui-flex__item'>
+        <view class='consumerDetails_mobile'>15898765456(华夫格)</view>
+        <view class='consumerDetails_time'>2018-06-26 12:12</view>
+      </view>
+      <view class='consumerDetails_item_r weui-flex__item'>-0.1</view>
+    </view>
+  </view>
+  <view class='consumerDetails_item'>
+    <view class='weui-flex'>
+      <view class='consumerDetails_item_l weui-flex__item'>
+        <view class='consumerDetails_order'>15898765456(华夫格)</view>
+        <view class='consumerDetails_time'>2018-06-26 12:12</view>
+      </view>
+      <view class='consumerDetails_item_r weui-flex__item'>-0.1</view>
+    </view>
+  </view>
+</view>

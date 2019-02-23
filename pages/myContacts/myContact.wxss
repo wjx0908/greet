@@ -1,0 +1,31 @@
+/* pages/myContacts/myContact.wxss */
+.myContact{
+  font-size: 34rpx;
+}
+.contact_item{
+  padding: 30rpx 0 0 32rpx
+}
+.contact_item_flex{
+  border-bottom: 1rpx solid #e5e5e5;
+  padding-bottom: 30rpx;
+  padding-right: 75rpx;
+  position: relative
+}
+.contact_item_flex i{
+  position: absolute;
+  right: 30rpx;top:4rpx;
+  color: rgb(199,199,204)
+
+}
+.myContact_btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+.myContact_btn .weui-btn{
+  border: none;
+  border-radius: 0;
+  background: rgb(255,190,0)
+}

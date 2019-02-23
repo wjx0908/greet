@@ -1,0 +1,77 @@
+/* pages/release/release.wxss */
+
+.headTab {
+  font-size: 32rpx;
+}
+
+.weui-navbar__slider {
+  width: 50%;
+  background: #ffbe00;
+}
+
+.weui-navbar {
+  border-bottom: none;
+}
+
+.weui-navbar__item {
+  background: #fff;
+}
+
+.weui-navbar__item.weui-bar__item_on {
+  color: #ffbe00;
+}
+
+.weui-tab__content .weui-tab__content_list {
+  background: #fff;
+  padding: 30rpx 32rpx;
+  border-bottom: 1px solid #f2f2f2;
+  
+}
+.weui-tab__content .weui-tab__content_list .weui-flex__item{
+width: 200px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis
+}
+.weui-tab__content_list .weui-flex__item_desc {
+  display: none;
+}
+
+.weui-tab__content .weui-tab__content_list .wait {
+  color: #a9a9a9;
+}
+
+.weui-tab__content_list .wait_arrow {
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: all 0.2s;
+}
+
+.list_active .wait_arrow {
+  transform: rotate(90deg);
+}
+
+.list_active .weui-flex__item_desc {
+  display: block;
+}
+
+.weui-flex__item_desc {
+  color: rgb(169, 169, 169);
+  margin-top: 26rpx;
+  font-size: 26rpx;
+}
+
+.item_desc_msg_bt {
+  margin-top: 40rpx;
+}
+
+.item_desc_msg_bt .item_desc_btn {
+  font-size: 28rpx;
+  width: 215rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 6rpx;
+  text-align: center;
+  color: #333;
+}

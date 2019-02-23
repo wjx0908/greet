@@ -1,0 +1,14 @@
+/* pages/year/phone.wxss */
+.phone_btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+}
+.phone_btn button{
+  height: 108rpx;
+  line-height: 108rpx;
+  border-radius: 0;
+  border: 0
+}

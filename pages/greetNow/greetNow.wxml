@@ -1,0 +1,69 @@
+<!--pages/greetNow/greetNow.wxml-->
+<view style='height:20rpx;background:rgb(244,244,244)'></view>
+<view class='greetNow'>
+  <view class="weui-cell weui-cell_input weui-cell_vcode">
+    <view class="weui-cell__hd">
+      <view class="weui-label">手机号</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入手机号" />
+    </view>
+    <view class="weui-cell__ft">
+      <view class="weui-vcode-btn">
+        <navigator url='../myContacts/myContact' hover-class='no'>联系人选择</navigator>
+      </view>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">接收人</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="姓名和昵称" />
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">发送人</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="姓名和昵称" />
+    </view>
+  </view>
+  <view style='height:20rpx;background:rgb(244,244,244)'></view>
+  <view class='choose'>
+    <view class='tab_time'>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">选择日期</view>
+    </view>
+    <view class="weui-cell__bd">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="weui-input">{{date}}</view>
+      </picker>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">选择时间</view>
+    </view>
+    <view class="weui-cell__bd">
+      <picker mode="time" value="{{time}}" bindchange="bindTimeChange">
+        <view class="weui-input">{{time}}</view>
+      </picker>
+    </view>
+  </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <textarea class="weui-textarea" placeholder="请输入你想发送的内容，70字/条" style="height: 10em;font-size:30rpx" />
+      <view class="weui-textarea-counter">0字</view>
+    </view>
+  </view>
+</view>
+  </view>
+</view>
+<view class='greetNow_btn'>
+  <button>立即发送</button>
+</view>

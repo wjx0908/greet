@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class='index'>
+  <view class='index_title'>
+    <image src='../../images/logo.png'></image>
+    <view style='line-height:0'>一款定期短信问候小工具</view>
+  </view>
+  <view class='index_item'>
+    <view class='item' bindtap='toyear'>
+      <view class='item_title'>定制年问候</view>
+      <view class='item_slogn'>每一个有意义的时刻，我都在你身边</view>
+      <view class='arrow iconfont icon-jiantouarrow483'></view>
+    </view>
+    <view class='item' bindtap='tomonth'>
+      <view class='item_title'>定制月问候</view>
+      <view class='item_slogn'>每一个有意义的时刻，我都在你身边</view>
+      <view class='arrow iconfont icon-jiantouarrow483'></view>
+    </view>
+    <view class='item' bindtap='toweek'>
+      <view class='item_title'>定制周问候</view>
+      <view class='item_slogn'>每一个有意义的时刻，我都在你身边</view>
+      <view class='arrow iconfont icon-jiantouarrow483'></view>
+    </view>
+    <view class='item' bindtap='today'>
+      <view class='item_title'>定制日问候</view>
+      <view class='item_slogn'>每一个有意义的时刻，我都在你身边</view>
+      <view class='arrow iconfont icon-jiantouarrow483'></view>
+    </view>
+    <view class='item' bindtap='tonow'>
+      <view class='item_title'>马上关怀</view>
+      <view class='item_slogn'>让关怀不迟到，立刻送上祝福</view>
+      <view class='arrow iconfont icon-jiantouarrow483'></view>
+    </view>
+  </view>
+  <view class='blessing'><image src='../../images/add.png'></image></view>
+  <view class='mark'>@问候一下</view>
+</view>

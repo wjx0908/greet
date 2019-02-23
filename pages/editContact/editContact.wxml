@@ -1,0 +1,31 @@
+<!--pages/editContact/editContact.wxml-->
+<view style='height:20rpx;background:rgb(244,244,244)'></view>
+<view class='editContact'>
+
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">姓名</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="姓名或昵称，可不填写" value='{{name}}' bindinput='bindname'/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">手机号码</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="联系人手机号码" value='{{mobile}}' bindinput="bindmobile"/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input line"></view>
+
+
+
+  <view class='editContact_btn weui-flex'>
+  <view><button class="weui-btn" type="default" style='background:#fff;width:250rpx' bindtap='openDeletConfirm' data-id='{{id}}'>删除</button></view>
+  <view class='weui-flex__item'><button class="weui-btn" type="primary" bindtap='edit'>提交</button></view>
+    
+    
+  </view>
+</view>
